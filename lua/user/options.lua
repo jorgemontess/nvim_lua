@@ -30,7 +30,7 @@ vim.opt.numberwidth = 4				                  -- set number column width to 2 {de
 --vim.opt.signcolumn = "yes"			                -- always show the sign column, otherwise it would shift the text each time
 vim.opt.wrap = false				                    -- display lines as one log line
 vim.opt.scrolloff = 8				                    -- I have to look at this in :help
-vim.opt.sidescrolloff = 8			
+vim.opt.sidescrolloff = 8
 vim.opt.guifont = "monospace:h17"		            -- the font used in graphical neovim applications
 
 -- vim.opt.shotmess:append "c"
