@@ -56,7 +56,7 @@ return packer.startup(function(use)
 
 
 -- Colorscheme Themes
-  use 'folke/tokyonight.nvim' 
+  use 'folke/tokyonight.nvim'
 
 -- cmp plugins (completion)
   use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -77,6 +77,10 @@ return packer.startup(function(use)
 	use "williamboman/nvim-lsp-installer"  -- simple to use language server installer
 --	use "jose-elias-alvarez/null-ls.nvim"  -- for formatters and linters
 
+
+-- Telescope
+  use "nvim-telescope/telescope.nvim"
+  use 'nvim-telescope/telescope-media-files.nvim'
 
 
 
