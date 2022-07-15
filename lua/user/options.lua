@@ -1,4 +1,6 @@
 -- :help options
+
+
 vim.opt.backup = false                          -- creates a backup file
 vim.opt.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard
 vim.opt.cmdheight = 2                           -- more space in the neovim command line for displaying messages
@@ -32,5 +34,3 @@ vim.opt.wrap = false				                    -- display lines as one log line
 vim.opt.scrolloff = 8				                    -- I have to look at this in :help
 vim.opt.sidescrolloff = 8
 vim.opt.guifont = "monospace:h17"		            -- the font used in graphical neovim applications
-
--- vim.opt.shotmess:append "c"
